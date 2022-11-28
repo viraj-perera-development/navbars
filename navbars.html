@@ -1,0 +1,541 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Navbars</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="navbars.css">
+</head>
+<body>
+  
+  <nav class="navbar sticky-top bg-dark mb-5">
+    <div class="container justify-content-center">
+      <a href="#" class="text-decoration-none link-light"><h1 class="fs-1">Navbars</h1></a>
+    </div>
+  </nav>
+
+<!-- navbar care default -->
+
+<div class="fw-bold mt-5">default</div>
+<nav class="navbar navbar-expand-xl bg-light">
+  <div class="container">
+    <div class="row align-items-end row-cols-2">
+      <div class="col-sm-3">
+        <a class="navbar-brand" href="#">
+          <img src="./media/care-is-gold-logo.png" alt="logo " class="img-fluid" width="100%">
+        </a>
+      </div>
+      <div class="col-sm-9 text-end">
+                <!-- hamburger button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- hamburger button -->    
+        <div class="col-12 col-sm-12 mb-lg-0 d-none d-xl-block text-start ms-5">
+          <button class="btn btn-gold">
+            Gold &euro; <span class="prezzoG"></span><span class="text-blu"><span class="arrow-gold"></span><span class="variazioneG"></span>%</span>
+          </button>
+          <a href="./pdf/Brochure_Careisgold_WEB_21.pdf" class="btn btn-default" target="_blank"><img src="./media/download_ico.png" alt="download" class="" width="6%">
+            Download Brochure
+          </a>
+          <a href="#" target="_blank">
+            <button class="btn btn-default">Area Riservata</button>
+          </a>
+          <a href="#" class="btn btn-circle" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>           
+          <a href="#" class="btn btn-circle" target="_blank">
+            <i class="fa-brands fa-linkedin-in btn-circle"></i>
+          </a>  
+          <a href="#" class="btn btn-circle" target="_blank">
+            <i class="fa-brands fa-facebook-f btn-circle"></i>
+          </a>  
+        </div>
+        <div class="col-12 col-sm-12  mb-lg-0 d-none d-xl-block ms-3">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item p-2">
+              <a class="nav-link active underline" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item p-2 dropdown">
+              <a class="nav-link underline" aria-current="page" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">azienda</a>
+              <div class="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
+                <a href="#" class="text-dark dropdown-item">Chi siamo</a>
+                <a href="#" class="text-dark dropdown-item">Gruppo</a>
+                <a href="#" class="text-dark dropdown-item">Lo staff</a>
+                <a href="#" class="text-dark dropdown-item">Accreditamenti e Certificazioni</a>
+                <a href="#" class="text-dark dropdown-item">Perché scegliere Careisgold</a>
+                <a href="#" class="text-dark dropdown-item">Codice Etico</a>
+              </div>                  
+            </li>
+            <li class="nav-item p-2 dropdown">
+              <a class="nav-link underline" aria-current="page" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Il mercato dell'oro</a>
+              <div class="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
+                <a href="#" class="text-dark dropdown-item">STORIA DELL'ORO</a>
+                <a href="#" class="text-dark dropdown-item">Perché investire in ORO</a>
+                <a href="#" class="text-dark dropdown-item">TRATTAMENTO FISCALE</a>
+                <a href="#" class="text-dark dropdown-item">QUOTAZIONI</a>
+                <a href="#" class="text-dark dropdown-item">DOMANDA e OFFERTA</a>
+                <a href="#" class="text-dark dropdown-item">CURIOSITà</a>
+              </div>
+            </li>
+          </li>
+          <li class="nav-item p-2 dropdown">
+            <a class="nav-link underline" aria-current="page" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Prodotti</a>
+            <div class="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
+              <a href="#" class="text-dark dropdown-item">I PIANI D'ACQUISTO</a>
+              <a href="#" class="text-dark dropdown-item">Servizi</a>
+              <a href="#" class="text-dark dropdown-item">La destinazione dell'Oro</a>
+              <a href="#" class="text-dark dropdown-item">Certificazione Good Delivery</a>
+              <a href="#" class="text-dark dropdown-item">Il sistema anti contraffazione Kinegram</a>
+              <a href="#" class="text-dark dropdown-item">L'importanza di essere un Banco Metalli</a>
+            </div>
+          </li>
+          <li class="nav-item p-2 dropdown">
+            <a class="nav-link underline" aria-current="page" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Collabora con noi</a>
+            <div class="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
+              <a href="#" class="text-dark dropdown-item">divisione prime</a>
+              <a href="#" class="text-dark dropdown-item">divisione private</a>
+              <a href="#" class="text-dark dropdown-item">divisione corporate</a>
+            </div>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link underline" aria-current="page" href="#">Press</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link underline" aria-current="page" href="#">eventi</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link underline" aria-current="page" href="#">Contatti</a>
+          </li>
+        </ul>
+      </div>         
+    </div>
+  </div>
+
+  <!-- hamburger start -->
+  <div class="offcanvas offcanvas-end  collapse" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      
+      <!-- immagine sidebar -->    
+      <a class="offcanvas-title text-center" id="offcanvasExampleLabel">
+        <img src="./media/care-is-gold-logo.png" alt="logo " class="img-fluid" width="50%">
+      </a>
+      <!-- immagine sidebar --> 
+      
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      
+    </div>
+    <div class="offcanvas-body text-start">
+      <div class="dropdown mt-3">
+        <a class="nav-link fw-bold underline" aria-current="page" href="#">Home</a> 
+      </div> <br>
+      <!-- dropdown link -->
+      
+      <div class="dropdown mt-3">
+        <a class="nav-link underline" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">azienda</a>
+        
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a href="#" class="text-dark dropdown-item">Chi siamo</a></li>
+          <li><a href="#" class="text-dark dropdown-item">Gruppo</a></li>
+          <li><a href="#" class="text-dark dropdown-item">Lo staff</a></li>
+          <li><a href="#" class="text-dark dropdown-item">Accreditamenti e Certificazioni</a></li>
+          <li><a href="#" class="text-dark dropdown-item">Perché scegliere Careisgold</a></li>
+          <li><a href="#" class="text-dark dropdown-item">Codice Etico</a></li>
+        </ul> 
+      </div> <br>
+      <!-- dropdown link -->
+      <!-- dropdown link -->
+      <div class="dropdown mt-3">
+        <a class="nav-link underline" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">Il mercato dell'oro</a>
+        
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a href="#" class="text-dark dropdown-item">STORIA DELL'ORO</a></li>
+          <li><a href="#" class="text-dark dropdown-item">Perché investire in ORO</a></li>
+          <li><a href="#" class="text-dark dropdown-item">TRATTAMENTO FISCALE</a></li>
+          <li><a href="#" class="text-dark dropdown-item">QUOTAZIONI</a></li>
+          <li><a href="#" class="text-dark dropdown-item">DOMANDA e OFFERTA</a></li>
+          <li><a href="#" class="text-dark dropdown-item">CURIOSITà</a></li>
+        </ul> 
+      </div> <br>
+      <!-- dropdown link -->
+      <!-- dropdown link -->
+      <div class="dropdown mt-3">
+        <a class="nav-link underline" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">Prodotti</a>
+        
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a href="#" class="text-dark dropdown-item">I PIANI D'ACQUISTO</a></li>
+          <li><a href="#" class="text-dark dropdown-item">Servizi</a></li>
+          <li><a href="#" class="text-dark dropdown-item">La destinazione dell'Oro</a></li>
+          <li><a href="#" class="text-dark dropdown-item">Certificazione Good Delivery</a></li>
+          <li><a href="#" class="text-dark dropdown-item">Il sistema anti contraffazione Kinegram</a></li>
+          <li><a href="#" class="text-dark dropdown-item">L'importanza di essere un Banco Metalli</a></li>
+        </ul> 
+      </div> <br>
+      <!-- dropdown link -->
+      <!-- dropdown link -->
+      <div class="dropdown mt-3">
+        <a class="nav-link underline" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">Collabora con noi</a>
+        
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a href="#" class="text-dark dropdown-item">divisione prime</a></li>
+          <li><a href="#" class="text-dark dropdown-item">divisione private</a></li>
+          <li><a href="#" class="text-dark dropdown-item">divisione corporate</a></li>
+        </ul> 
+      </div> <br>
+      <!-- dropdown link -->
+      
+      <!-- link -->
+      <div class="dropdown mt-3">
+        <a class="nav-link underline" aria-current="page" href="#">Press</a>
+      </div> <br>
+      <div class="dropdown mt-3">
+        <a class="nav-link underline" aria-current="page" href="#">eventi</a>
+      </div> <br>
+      <div class="dropdown mt-3">
+        <a class="nav-link underline" aria-current="page" href="#">Contatti</a>
+      </div> <br>
+      <!-- link -->      
+    </ul>   
+  </div>
+</div>
+<!-- hamburger end -->
+</div>
+</nav>
+
+<!-- navbar care default -->
+
+<!-- care-a -->
+
+<div class="fw-bold mt-5">care-a</div>
+<nav class="navbar navbar-expand-xl bg-light">
+  <div class="container">
+    <div class="row align-items-end row-cols-2">
+      <div class="col-sm-3">
+        <a class="navbar-brand" href="#">
+          <img src="./media/care-is-gold-logo.png" alt="logo " class="img-fluid" width="100%">
+        </a>
+      </div>
+      <div class="col-sm-9 text-end">
+                <!-- hamburger button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- hamburger button -->    
+        <div class="col-12 col-sm-12 mb-lg-0 d-none d-xl-block text-start ms-5">
+          <button class="btn btn-gold">
+            Gold &euro; <span class="prezzoG"></span><span class="text-blu"><span class="arrow-gold"></span><span class="variazioneG"></span>%</span>
+          </button>
+          <a href="./pdf/Brochure_Careisgold_WEB_21.pdf" class="btn btn-default" target="_blank"><img src="./media/download_ico.png" alt="download" class="" width="6%">
+            Download Brochure
+          </a>
+          <a href="#" target="_blank">
+            <button class="btn btn-default">Area Riservata</button>
+          </a>
+          <a href="#" class="btn btn-circle" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>           
+          <a href="#" class="btn btn-circle" target="_blank">
+            <i class="fa-brands fa-linkedin-in btn-circle"></i>
+          </a>  
+          <a href="#" class="btn btn-circle" target="_blank">
+            <i class="fa-brands fa-facebook-f btn-circle"></i>
+          </a>  
+        </div>
+        <div class="col-12 col-sm-12  mb-lg-0 d-none d-xl-block ms-3">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item p-2">
+              <a class="nav-link active underline" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item p-2 dropdown-a">
+              <a class="nav-link underline dropbtn-a" aria-current="page" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">azienda</a>
+              <div class="dropdown-content-a" aria-labelledby="navbarDropdown">
+                <a href="#" class="text-dark text-start dropdown-item">Chi siamo</a>
+                <a href="#" class="text-dark text-start dropdown-item">Gruppo</a>
+                <a href="#" class="text-dark text-start dropdown-item">Lo staff</a>
+                <a href="#" class="text-dark text-start dropdown-item">Accreditamenti e Certificazioni</a>
+                <a href="#" class="text-dark text-start dropdown-item">Perché scegliere Careisgold</a>
+                <a href="#" class="text-dark text-start dropdown-item">Codice Etico</a>
+              </div>                  
+            </li>
+            <li class="nav-item p-2 dropdown-a">
+              <a class="nav-link underline dropbtn-a" aria-current="page" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Il mercato dell'oro</a>
+              <div class="dropdown-content-a" aria-labelledby="navbarDropdown">
+                <a href="#" class="text-dark text-start dropdown-item">STORIA DELL'ORO</a>
+                <a href="#" class="text-dark text-start dropdown-item">Perché investire in ORO</a>
+                <a href="#" class="text-dark text-start dropdown-item">TRATTAMENTO FISCALE</a>
+                <a href="#" class="text-dark text-start dropdown-item">QUOTAZIONI</a>
+                <a href="#" class="text-dark text-start dropdown-item">DOMANDA e OFFERTA</a>
+                <a href="#" class="text-dark text-start dropdown-item">CURIOSITà</a>
+              </div>
+            </li>
+          </li>
+          <li class="nav-item p-2 dropdown-a">
+            <a class="nav-link underline dropbtn-a" aria-current="page" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Prodotti</a>
+            <div class="dropdown-content-a" aria-labelledby="navbarDropdown">
+              <a href="#" class="text-dark text-start dropdown-item">I PIANI D'ACQUISTO</a>
+              <a href="#" class="text-dark text-start dropdown-item">Servizi</a>
+              <a href="#" class="text-dark text-start dropdown-item">La destinazione dell'Oro</a>
+              <a href="#" class="text-dark text-start dropdown-item">Certificazione Good Delivery</a>
+              <a href="#" class="text-dark text-start dropdown-item">Il sistema anti contraffazione Kinegram</a>
+              <a href="#" class="text-dark text-start dropdown-item">L'importanza di essere un Banco Metalli</a>
+            </div>
+          </li>
+          <li class="nav-item p-2 dropdown-a">
+            <a class="nav-link underline dropbtn-a" aria-current="page" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Collabora con noi</a>
+            <div class="dropdown-content-a" aria-labelledby="navbarDropdown">
+              <a href="#" class="text-dark text-start dropdown-item">divisione prime</a>
+              <a href="#" class="text-dark text-start dropdown-item">divisione private</a>
+              <a href="#" class="text-dark text-start dropdown-item">divisione corporate</a>
+            </div>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link underline" aria-current="page" href="#">Press</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link underline" aria-current="page" href="#">eventi</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link underline" aria-current="page" href="#">Contatti</a>
+          </li>
+        </ul>
+      </div>         
+    </div>
+  </div>
+
+  <!-- hamburger start -->
+  <div class="offcanvas offcanvas-end  collapse" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      
+      <!-- immagine sidebar -->    
+      <a class="offcanvas-title text-center" id="offcanvasExampleLabel">
+        <img src="./media/care-is-gold-logo.png" alt="logo " class="img-fluid" width="50%">
+      </a>
+      <!-- immagine sidebar --> 
+      
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      
+    </div>
+    <div class="offcanvas-body text-start">
+      <div class="dropdown mt-3">
+        <a class="nav-link fw-bold underline" aria-current="page" href="#">Home</a> 
+      </div> <br>
+      <!-- dropdown link -->
+      
+      <div class="dropdown mt-3">
+        <a class="nav-link underline" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">azienda</a>
+        
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a href="#" class="text-dark dropdown-item">Chi siamo</a></li>
+          <li><a href="#" class="text-dark dropdown-item">Gruppo</a></li>
+          <li><a href="#" class="text-dark dropdown-item">Lo staff</a></li>
+          <li><a href="#" class="text-dark dropdown-item">Accreditamenti e Certificazioni</a></li>
+          <li><a href="#" class="text-dark dropdown-item">Perché scegliere Careisgold</a></li>
+          <li><a href="#" class="text-dark dropdown-item">Codice Etico</a></li>
+        </ul> 
+      </div> <br>
+      <!-- dropdown link -->
+      <!-- dropdown link -->
+      <div class="dropdown mt-3">
+        <a class="nav-link underline" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">Il mercato dell'oro</a>
+        
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a href="#" class="text-dark dropdown-item">STORIA DELL'ORO</a></li>
+          <li><a href="#" class="text-dark dropdown-item">Perché investire in ORO</a></li>
+          <li><a href="#" class="text-dark dropdown-item">TRATTAMENTO FISCALE</a></li>
+          <li><a href="#" class="text-dark dropdown-item">QUOTAZIONI</a></li>
+          <li><a href="#" class="text-dark dropdown-item">DOMANDA e OFFERTA</a></li>
+          <li><a href="#" class="text-dark dropdown-item">CURIOSITà</a></li>
+        </ul> 
+      </div> <br>
+      <!-- dropdown link -->
+      <!-- dropdown link -->
+      <div class="dropdown mt-3">
+        <a class="nav-link underline" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">Prodotti</a>
+        
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a href="#" class="text-dark dropdown-item">I PIANI D'ACQUISTO</a></li>
+          <li><a href="#" class="text-dark dropdown-item">Servizi</a></li>
+          <li><a href="#" class="text-dark dropdown-item">La destinazione dell'Oro</a></li>
+          <li><a href="#" class="text-dark dropdown-item">Certificazione Good Delivery</a></li>
+          <li><a href="#" class="text-dark dropdown-item">Il sistema anti contraffazione Kinegram</a></li>
+          <li><a href="#" class="text-dark dropdown-item">L'importanza di essere un Banco Metalli</a></li>
+        </ul> 
+      </div> <br>
+      <!-- dropdown link -->
+      <!-- dropdown link -->
+      <div class="dropdown mt-3">
+        <a class="nav-link underline" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">Collabora con noi</a>
+        
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a href="#" class="text-dark dropdown-item">divisione prime</a></li>
+          <li><a href="#" class="text-dark dropdown-item">divisione private</a></li>
+          <li><a href="#" class="text-dark dropdown-item">divisione corporate</a></li>
+        </ul> 
+      </div> <br>
+      <!-- dropdown link -->
+      
+      <!-- link -->
+      <div class="dropdown mt-3">
+        <a class="nav-link underline" aria-current="page" href="#">Press</a>
+      </div> <br>
+      <div class="dropdown mt-3">
+        <a class="nav-link underline" aria-current="page" href="#">eventi</a>
+      </div> <br>
+      <div class="dropdown mt-3">
+        <a class="nav-link underline" aria-current="page" href="#">Contatti</a>
+      </div> <br>
+      <!-- link -->      
+    </ul>   
+  </div>
+</div>
+<!-- hamburger end -->
+</div>
+</nav>
+
+<!-- care-a -->
+
+<!-- care-b -->
+
+<div class="fw-bold mt-5">care-b</div>
+<nav id="main" class="navbar navbar-expand-xl bg-light">
+  <div class="container">
+    <div class="row align-items-end row-cols-2">
+      <div class="col-sm-3">
+        <a class="navbar-brand" href="#">
+          <img src="./media/care-is-gold-logo.png" alt="logo " class="img-fluid" width="100%">
+        </a>
+      </div>
+      <div class="col-sm-9 text-end">
+                <!-- hamburger button -->
+                <button class="navbar-toggler openbtn" onclick="openNav()" type="button">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- hamburger button -->    
+        <div class="col-12 col-sm-12 mb-lg-0 d-none d-xl-block text-start ms-5">
+          <button class="btn btn-gold">
+            Gold &euro; <span class="prezzoG"></span><span class="text-blu"><span class="arrow-gold"></span><span class="variazioneG"></span>%</span>
+          </button>
+          <a href="./pdf/Brochure_Careisgold_WEB_21.pdf" class="btn btn-default" target="_blank"><img src="./media/download_ico.png" alt="download" class="" width="6%">
+            Download Brochure
+          </a>
+          <a href="#" target="_blank">
+            <button class="btn btn-default">Area Riservata</button>
+          </a>
+          <a href="#" class="btn btn-circle" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>           
+          <a href="#" class="btn btn-circle" target="_blank">
+            <i class="fa-brands fa-linkedin-in btn-circle"></i>
+          </a>  
+          <a href="#" class="btn btn-circle" target="_blank">
+            <i class="fa-brands fa-facebook-f btn-circle"></i>
+          </a>  
+        </div>
+        <div class="col-12 col-sm-12  mb-lg-0 d-none d-xl-block ms-3">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item p-2">
+              <a class="nav-link active underline" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item p-2 dropdown-a">
+              <a class="nav-link underline dropbtn-a" aria-current="page" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">azienda</a>
+              <div class="dropdown-content-a" aria-labelledby="navbarDropdown">
+                <a href="#" class="text-dark text-start dropdown-item">Chi siamo</a>
+                <a href="#" class="text-dark text-start dropdown-item">Gruppo</a>
+                <a href="#" class="text-dark text-start dropdown-item">Lo staff</a>
+                <a href="#" class="text-dark text-start dropdown-item">Accreditamenti e Certificazioni</a>
+                <a href="#" class="text-dark text-start dropdown-item">Perché scegliere Careisgold</a>
+                <a href="#" class="text-dark text-start dropdown-item">Codice Etico</a>
+              </div>                  
+            </li>
+            <li class="nav-item p-2 dropdown-a">
+              <a class="nav-link underline dropbtn-a" aria-current="page" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Il mercato dell'oro</a>
+              <div class="dropdown-content-a" aria-labelledby="navbarDropdown">
+                <a href="#" class="text-dark text-start dropdown-item">STORIA DELL'ORO</a>
+                <a href="#" class="text-dark text-start dropdown-item">Perché investire in ORO</a>
+                <a href="#" class="text-dark text-start dropdown-item">TRATTAMENTO FISCALE</a>
+                <a href="#" class="text-dark text-start dropdown-item">QUOTAZIONI</a>
+                <a href="#" class="text-dark text-start dropdown-item">DOMANDA e OFFERTA</a>
+                <a href="#" class="text-dark text-start dropdown-item">CURIOSITà</a>
+              </div>
+            </li>
+          </li>
+          <li class="nav-item p-2 dropdown-a">
+            <a class="nav-link underline dropbtn-a" aria-current="page" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Prodotti</a>
+            <div class="dropdown-content-a" aria-labelledby="navbarDropdown">
+              <a href="#" class="text-dark text-start dropdown-item">I PIANI D'ACQUISTO</a>
+              <a href="#" class="text-dark text-start dropdown-item">Servizi</a>
+              <a href="#" class="text-dark text-start dropdown-item">La destinazione dell'Oro</a>
+              <a href="#" class="text-dark text-start dropdown-item">Certificazione Good Delivery</a>
+              <a href="#" class="text-dark text-start dropdown-item">Il sistema anti contraffazione Kinegram</a>
+              <a href="#" class="text-dark text-start dropdown-item">L'importanza di essere un Banco Metalli</a>
+            </div>
+          </li>
+          <li class="nav-item p-2 dropdown-a">
+            <a class="nav-link underline dropbtn-a" aria-current="page" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Collabora con noi</a>
+            <div class="dropdown-content-a" aria-labelledby="navbarDropdown">
+              <a href="#" class="text-dark text-start dropdown-item">divisione prime</a>
+              <a href="#" class="text-dark text-start dropdown-item">divisione private</a>
+              <a href="#" class="text-dark text-start dropdown-item">divisione corporate</a>
+            </div>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link underline" aria-current="page" href="#">Press</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link underline" aria-current="page" href="#">eventi</a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link underline" aria-current="page" href="#">Contatti</a>
+          </li>
+        </ul>
+      </div>         
+    </div>
+  </div>
+
+  <!-- hamburger start -->
+  <div id="mySidebar" class="sidebar" >
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <!-- immagine sidebar -->    
+       <a class="text-start">
+        <img src="./media/care-is-gold-logo.png" alt="logo " class="img-fluid" width="50%">
+      </a> 
+      <!-- immagine sidebar --> 
+        </div>
+        <div class="col">
+          <a href="javascript:void(0)" class="closebtn me-5" onclick="closeNav()">×</a>
+        </div>
+      </div>
+    </div>
+      <!-- link -->
+        <a class="underline" aria-current="page" href="#">Home</a> 
+        <a class="underline" aria-current="page" href="#">Press</a>
+        <a class="underline" aria-current="page" href="#">eventi</a>
+        <a class="underline" aria-current="page" href="#">Contatti</a>
+      <!-- link -->      
+</div>
+<!-- hamburger end -->
+</div>
+</nav>
+
+<script>
+  function openNav() {
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+  </script>
+
+<!-- care-b -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/9ef04f6d61.js" crossorigin="anonymous"></script>
+<script src="navbars.js"></script>
+</body>
+</html>

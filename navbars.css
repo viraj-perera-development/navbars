@@ -1,0 +1,238 @@
+/* navbar care default */
+
+/* btn-gold */
+
+.btn-gold{
+    color: #fff;
+    background: linear-gradient(90deg, rgba(248,224,95,1) 0%, rgba(248,223,94,1) 25%, rgba(210,149,32,1) 75%);
+    border: none; /*annulla effetto pop*/
+    text-decoration: none;
+  }
+  .btn-gold:focus,
+  .btn-gold:hover
+  {
+    color: #fff;
+    background: linear-gradient(90deg, rgba(248,224,95,1) 0%, rgba(248,223,94,1) 25%, rgba(210,149,32,1) 75%);
+  } 
+  
+  /* btn-gold */
+  
+  /* default */
+  
+  .btn-default{
+    background-color: #DBBE6F;
+    color: #fff;
+    border: none; /*annulla effetto pop*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .btn-default:focus,
+  .btn-default:hover
+  {
+    background-color: #DBBE6F;
+    color: #fff;
+  }
+  
+  /* default */
+  
+  /* default-circle */
+  
+  .btn-default-circle{
+    background-color: #DBBE6F;
+    color: #fff;
+    border: none; /*annulla effetto pop*/
+    text-align: center;
+    text-decoration: none;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 0.5vh;
+  }
+  .btn-default-circle:focus,
+  .btn-default-circle:hover
+  {
+    background-color: #DBBE6F;
+    color: #fff;
+  }
+  
+  /* default-circle */
+  
+  /* btn-circle */
+  
+  .btn-circle{
+    background-color: #DBBE6F;
+    color: #fff;
+    border: none; /*annulla effetto pop*/
+    border-radius: 50%;
+    border: none; /*annulla effetto pop*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .btn-circle:focus,
+  .btn-circle:hover
+  {
+    background-color: #DBBE6F;
+    color: #fff;
+  }
+  
+  /* btn-circle */
+  
+  /* Serve al <div> per ogni dropdown  */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* .dropdown:hover .dropdown-content {display: inline-block;} */
+  
+  .underline:after {    
+    content: "";
+    display: block;
+    left: 50%;
+    position: relative;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+    border-bottom: solid 2px #DBBE6F;
+    -webkit-transition: all 200ms linear; 
+    -moz-transition: all 200ms linear; 
+    -ms-transition: all 200ms linear; 
+    -o-transition: all 200ms linear; 
+    transition: all 200ms linear;
+  }
+  .underline:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  
+  .navbar-nav{
+  flex-direction: row;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  /* navbar care default */
+  
+  /* care-a */
+  
+  .dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content-a {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content-a a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content-a a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown-a:hover .dropdown-content-a {display: block;}
+  
+  /* care-a */
+  
+  /* care-b */
+  
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  
+  /* care-b */
+  
